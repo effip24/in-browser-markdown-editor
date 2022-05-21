@@ -1,9 +1,9 @@
+import { useEffect, useState } from "react";
 import "./Header.css";
 
 import { getElementWidth } from "../../utils/utils";
 
 import logo from "../../images/assets/logo.svg";
-import { useEffect, useState } from "react";
 
 interface Props {
   onMenuClick: Function;
@@ -50,6 +50,7 @@ const Header = ({
       style={{
         minWidth: `${isSideNavOpen ? getElementWidth(".header") : "100%"}`,
       }}
+      role="banner"
     >
       <div className="header__left-side">
         <button
@@ -66,6 +67,7 @@ const Header = ({
               className="header__doc-name"
               value={fileName}
               onChange={handleFileNameChange}
+              aria-label="name"
             ></input>
           </div>
         </div>

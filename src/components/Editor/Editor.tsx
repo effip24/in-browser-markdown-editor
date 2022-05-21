@@ -86,6 +86,7 @@ const Editor = ({
             className="editor__text"
             onChange={handleChange}
             value={markdownText}
+            aria-label="text"
           ></textarea>
         </form>
 
