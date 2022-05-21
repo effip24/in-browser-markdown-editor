@@ -1,0 +1,151 @@
+.reactMarkDown h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  /* 700 */
+  color: var(--mark-h);
+}
+
+.reactMarkDown h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+  /* 700 */
+  color: var(--mark-h);
+}
+
+.reactMarkDown h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  /* 700 */
+  color: var(--mark-h);
+}
+
+.reactMarkDown h4 {
+  /* Preview H4 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* 700 */
+  color: var(--mark-h);
+}
+
+.reactMarkDown h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* 700 */
+  color: var(--mark-h);
+}
+
+.reactMarkDown h6 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* Orange */
+  color: #e46643;
+}
+
+.reactMarkDown p {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* 500 */
+  color: var(--mark-p);
+}
+
+.reactMarkDown blockquote {
+  background: var(--mark-quote);
+  margin: 0;
+}
+
+.reactMarkDown blockquote p {
+  border-radius: 4px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-left: 4px solid #e46643;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: var(--mark-quote-p);
+}
+
+.reactMarkDown blockquote a {
+  color: var(--mark-quote-p);
+}
+
+.reactMarkDown ol li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* 500 */
+  color: var(--mark-p);
+}
+
+.reactMarkDown ul {
+  list-style: none;
+}
+
+.reactMarkDown ul li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* 500 */
+  color: var(--mark-p);
+}
+
+.reactMarkDown ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e46643; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 3px; /* Also needed for space (tweak if needed) */
+  height: 3px;
+  padding-left: 16px;
+  margin: 16px;
+}
+
+.reactMarkDown code {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: var(--mark-quote);
+  border-radius: 4px;
+  padding: 24px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  /* 700 */
+  color: var(--mark-h);
+}
